@@ -24,4 +24,4 @@ const obj = list.reduce((acc, cur) => {
   return acc;
 }, {} as Record<string, Fields>);
 
-Deno.writeTextFile("./db.json", JSON.stringify(obj, undefined, 2));
+Deno.writeTextFile("./db.json", JSON.stringify(obj, undefined, 2) + "\n");
