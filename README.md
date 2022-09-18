@@ -6,6 +6,13 @@ Data from the following sources:
 
 - <https://www.iana.org/assignments/http-fields/http-fields.xml>
 
+## Packages
+
+The package supports multiple platforms.
+
+- deno.land/x - `https://deno.land/x/http_header_db@$VERSION`
+- npm - `http-header-db`
+
 ## Usage
 
 ```ts
