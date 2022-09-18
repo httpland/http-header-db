@@ -1,0 +1,620 @@
+{
+  "a-im": {
+    "listable": true
+  },
+  "accept": {
+    "listable": true
+  },
+  "accept-additions": {},
+  "accept-ch": {
+    "listable": true
+  },
+  "accept-charset": {
+    "forbidden": true,
+    "listable": true
+  },
+  "accept-datetime": {},
+  "accept-encoding": {
+    "forbidden": true,
+    "listable": true
+  },
+  "accept-features": {
+    "listable": true
+  },
+  "accept-language": {
+    "listable": true
+  },
+  "accept-patch": {
+    "listable": true
+  },
+  "accept-post": {
+    "listable": true
+  },
+  "accept-ranges": {
+    "listable": false
+  },
+  "access-control": {},
+  "access-control-allow-credentials": {
+    "listable": false
+  },
+  "access-control-allow-headers": {
+    "listable": true
+  },
+  "access-control-allow-methods": {
+    "listable": true
+  },
+  "access-control-allow-origin": {
+    "listable": false
+  },
+  "access-control-expose-headers": {
+    "listable": true
+  },
+  "access-control-max-age": {
+    "listable": false
+  },
+  "access-control-request-headers": {
+    "forbidden": true,
+    "listable": true
+  },
+  "access-control-request-method": {
+    "forbidden": true,
+    "listable": false
+  },
+  "age": {
+    "singleton": true,
+    "listable": false
+  },
+  "allow": {
+    "listable": true
+  },
+  "alpn": {
+    "listable": true
+  },
+  "alt-svc": {
+    "listable": true
+  },
+  "alt-used": {
+    "listable": false
+  },
+  "alternates": {
+    "listable": true
+  },
+  "amp-cache-transform": {
+    "listable": true
+  },
+  "apply-to-redirect-ref": {
+    "listable": false
+  },
+  "authentication-control": {
+    "listable": true
+  },
+  "authentication-info": {
+    "listable": true
+  },
+  "authorization": {
+    "singleton": true,
+    "listable": false
+  },
+  "c-ext": {},
+  "c-man": {},
+  "c-opt": {},
+  "c-pep": {},
+  "c-pep-info": {},
+  "cache-control": {
+    "cors-safe": true,
+    "listable": true
+  },
+  "cache-status": {
+    "listable": true
+  },
+  "cal-managed-id": {
+    "listable": false
+  },
+  "caldav-timezones": {
+    "listable": false
+  },
+  "capsule-protocol": {},
+  "cdn-cache-control": {},
+  "cdn-loop": {
+    "listable": true
+  },
+  "cert-not-after": {},
+  "cert-not-before": {},
+  "clear-site-data": {
+    "listable": true
+  },
+  "close": {},
+  "configuration-context": {
+    "listable": false
+  },
+  "connection": {
+    "forbidden": true,
+    "listable": true
+  },
+  "content-base": {
+    "listable": false
+  },
+  "content-disposition": {
+    "listable": false
+  },
+  "content-encoding": {
+    "listable": true
+  },
+  "content-id": {
+    "listable": false
+  },
+  "content-language": {
+    "cors-safe": true,
+    "listable": true
+  },
+  "content-length": {
+    "singleton": true,
+    "cors-safe": true,
+    "forbidden": true,
+    "listable": false
+  },
+  "content-location": {
+    "singleton": true,
+    "listable": false
+  },
+  "content-md5": {
+    "listable": false
+  },
+  "content-range": {
+    "singleton": true,
+    "listable": false
+  },
+  "content-script-type": {},
+  "content-security-policy": {
+    "listable": true,
+    "commaa": false
+  },
+  "content-security-policy-report-only": {
+    "listable": true
+  },
+  "content-style-type": {},
+  "content-type": {
+    "singleton": true,
+    "cors-safe": true,
+    "listable": true
+  },
+  "content-version": {
+    "listable": false
+  },
+  "cookie": {
+    "forbidden": true
+  },
+  "cookie2": {
+    "forbidden": true
+  },
+  "cross-origin-embedder-policy": {
+    "listable": false
+  },
+  "cross-origin-embedder-policy-report-only": {
+    "listable": false
+  },
+  "cross-origin-opener-policy": {
+    "listable": false
+  },
+  "cross-origin-opener-policy-report-only": {
+    "listable": false
+  },
+  "cross-origin-resource-policy": {
+    "listable": false
+  },
+  "dasl": {
+    "listable": true
+  },
+  "date": {
+    "singleton": true,
+    "forbidden": true,
+    "listable": false
+  },
+  "dav": {
+    "listable": true
+  },
+  "default-style": {},
+  "delta-base": {
+    "listable": false
+  },
+  "depth": {
+    "listable": false
+  },
+  "derived-from": {
+    "listable": false
+  },
+  "destination": {
+    "listable": false
+  },
+  "differential-id": {
+  },
+  "digest": {
+    "listable": true
+  },
+  "early-data": {
+    "listable": false
+  },
+  "ediint-features": {
+    "listable": true
+  },
+  "etag": {
+    "singleton": true,
+    "listable": false
+  },
+  "expect": {
+    "singleton": true,
+    "forbidden": true,
+    "listable": true
+  },
+  "expect-ct": {
+    "listable": true
+  },
+  "expires": {
+    "singleton": true,
+    "cors-safe": true,
+    "listable": false
+  },
+  "ext": {
+    "listable": false
+  },
+  "forwarded": {
+    "listable": true
+  },
+  "from": {
+    "listable": false
+  },
+  "getprofile": {},
+  "hobareg": {
+    "listable": false
+  },
+  "host": {
+    "singleton": true,
+    "forbidden": true,
+    "listable": false
+  },
+  "http2-settings": {
+    "listable": false
+  },
+  "if": {},
+  "if-match": {
+    "listable": true
+  },
+  "if-modified-since": {
+    "singleton": true,
+    "listable": false
+  },
+  "if-none-match": {
+    "listable": true
+  },
+  "if-range": {
+    "singleton": true,
+    "listable": false
+  },
+  "if-schedule-tag-match": {
+    "listable": false
+  },
+  "if-unmodified-since": {
+    "singleton": true,
+    "listable": false
+  },
+  "im": {
+    "listable": true
+  },
+  "include-referred-token-binding-id": {
+    "listable": false
+  },
+  "isolation": {},
+  "keep-alive": {
+    "forbidden": true,
+    "listable": true
+  },
+  "label": {
+    "listable": false
+  },
+  "last-event-id": {},
+  "last-modified": {
+    "singleton": true,
+    "cors-safe": true,
+    "listable": false
+  },
+  "link": {
+    "listable": true
+  },
+  "location": {
+    "singleton": true,
+    "listable": false
+  },
+  "lock-token": {
+    "listable": false
+  },
+  "man": {
+    "listable": true
+  },
+  "max-forwards": {
+    "singleton": true,
+    "listable": false
+  },
+  "memento-datetime": {},
+  "meter": {
+    "listable": true
+  },
+  "method-check": {
+    "listable": false
+  },
+  "method-check-expires": {
+    "listable": false
+  },
+  "mime-version": {
+    "listable": false
+  },
+  "negotiate": {
+    "listable": true
+  },
+  "odata-entityid": {
+    "listable": false
+  },
+  "odata-isolation": {
+    "listable": false
+  },
+  "odata-maxversion": {
+    "listable": false
+  },
+  "odata-version": {
+    "listable": false
+  },
+  "opt": {
+    "listable": true
+  },
+  "optional-www-authenticate": {
+    "listable": true
+  },
+  "ordering-type": {
+    "listable": false
+  },
+  "origin": {
+    "singleton": true,
+    "forbidden": true,
+    "listable": false
+  },
+  "origin-agent-cluster": {
+    "listable": false
+  },
+  "oscore": {},
+  "oslc-core-version": {
+    "listable": false
+  },
+  "overwrite": {
+    "listable": false
+  },
+  "p3p": {},
+  "pep": {
+    "listable": true
+  },
+  "pep-info": {
+    "listable": true
+  },
+  "pics-label": {
+    "listable": false
+  },
+  "ping-from": {},
+  "ping-to": {},
+  "position": {
+    "listable": false
+  },
+  "pragma": {
+    "cors-safe": true,
+    "listable": false
+  },
+  "prefer": {
+    "listable": true
+  },
+  "preference-applied": {
+    "listable": true
+  },
+  "priority": {},
+  "profileobject": {},
+  "protocol": {},
+  "protocol-info": {
+    "listable": true
+  },
+  "protocol-query": {},
+  "protocol-request": {},
+  "proxy-authenticate": {
+    "forbidden": true,
+    "listable": true
+  },
+  "proxy-authentication-info": {
+    "forbidden": true,
+    "listable": true
+  },
+  "proxy-authorization": {
+    "singleton": true,
+    "listable": false
+  },
+  "proxy-features": {
+    "forbidden": true,
+    "listable": false
+  },
+  "proxy-instruction": {
+    "forbidden": true,
+    "listable": false
+  },
+  "proxy-status": {
+    "forbidden": true,
+    "listable": true
+  },
+  "public": {
+    "listable": true
+  },
+  "public-key-pins": {},
+  "public-key-pins-report-only": {},
+  "range": {
+    "singleton": true,
+    "listable": false
+  },
+  "redirect-ref": {
+    "listable": false
+  },
+  "referer": {
+    "singleton": true,
+    "forbidden": true,
+    "listable": false
+  },
+  "referer-root": {
+    "listable": false
+  },
+  "refresh": {},
+  "repeatability-client-id": {},
+  "repeatability-first-sent": {},
+  "repeatability-request-id": {},
+  "repeatability-result": {},
+  "replay-nonce": {
+    "listable": false
+  },
+  "retry-after": {
+    "singleton": true,
+    "listable": false
+  },
+  "safe": {
+    "listable": false
+  },
+  "schedule-reply": {
+    "listable": false
+  },
+  "schedule-tag": {
+    "listable": false
+  },
+  "sec-gpc": {
+    "forbidden": true,
+    "listable": false
+  },
+  "sec-token-binding": {
+    "forbidden": true,
+    "listable": false
+  },
+  "sec-websocket-accept": {
+    "forbidden": true,
+    "listable": false
+  },
+  "sec-websocket-extensions": {
+    "forbidden": true,
+    "listable": true
+  },
+  "sec-websocket-key": {
+    "forbidden": true,
+    "listable": false
+  },
+  "sec-websocket-protocol": {
+    "forbidden": true,
+    "listable": true
+  },
+  "sec-websocket-version": {
+    "forbidden": true,
+    "listable": true
+  },
+  "security-scheme": {},
+  "server": {
+    "singleton": true,
+    "listable": false
+  },
+  "server-timing": {
+    "listable": true
+  },
+  "set-cookie": {
+    "listable": false
+  },
+  "set-cookie2": {
+    "listable": true
+  },
+  "setprofile": {},
+  "slug": {
+    "listable": false
+  },
+  "soapaction": {
+    "listable": false
+  },
+  "status-uri": {},
+  "strict-transport-security": {
+    "listable": false
+  },
+  "sunset": {
+    "listable": false
+  },
+  "surrogate-capability": {
+    "listable": true
+  },
+  "surrogate-control": {
+    "listable": true
+  },
+  "tcn": {
+    "listable": true
+  },
+  "te": {
+    "forbidden": true,
+    "listable": true
+  },
+  "timeout": {
+    "listable": true
+  },
+  "timing-allow-origin": {
+    "listable": true
+  },
+  "topic": {
+    "listable": false
+  },
+  "traceparent": {
+    "listable": false
+  },
+  "tracestate": {
+    "listable": true
+  },
+  "trailer": {
+    "forbidden": true,
+    "listable": true
+  },
+  "transfer-encoding": {
+    "forbidden": true,
+    "listable": true
+  },
+  "ttl": {
+    "listable": false
+  },
+  "upgrade": {
+    "forbidden": true,
+    "listable": true
+  },
+  "urgency": {
+    "listable": false
+  },
+  "uri": {},
+  "user-agent": {
+    "singleton": true,
+    "listable": false
+  },
+  "variant-vary": {
+    "listable": true
+  },
+  "vary": {
+    "listable": true
+  },
+  "via": {
+    "forbidden": true,
+    "listable": true
+  },
+  "want-digest": {
+    "listable": true
+  },
+  "warning": {
+    "listable": false
+  },
+  "www-authenticate": {
+    "listable": false
+  },
+  "x-content-type-options": {
+    "listable": false
+  },
+  "x-frame-options": {
+    "listable": false
+  },
+  "*": {}
+}
